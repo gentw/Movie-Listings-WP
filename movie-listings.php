@@ -13,4 +13,10 @@ if(!defined('ABSPATH')){
 
 require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-scripts.php');
 
+if(is_admin()) {
+	require_once(plugin_dir_path(__FILE__) . '/inc/movie-listing-fields.php');
+
+}
+
+
 require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-cpt.php');

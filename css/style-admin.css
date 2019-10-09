@@ -1,0 +1,17 @@
+.movie-listing-form {
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.movie-listing-form input {
+    padding: 5px;
+}
+
+.movie-listing-form label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
