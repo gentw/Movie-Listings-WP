@@ -13,5 +13,4 @@ if(!defined('ABSPATH')){
 
 require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-scripts.php');
 
-
-//require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-cpt.php');
+require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-cpt.php');
