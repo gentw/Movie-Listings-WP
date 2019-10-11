@@ -16,7 +16,7 @@ require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-scripts.php');
 if(is_admin()) {
 	require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-fields.php');
 	require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-settings.php');
-
+	require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-reorder.php');
 }
 
 
