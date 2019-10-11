@@ -21,3 +21,4 @@ if(is_admin()) {
 
 
 require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-cpt.php');
+require_once(plugin_dir_path(__FILE__) . '/inc/movie-listings-shortcodes.php');
